@@ -25,6 +25,12 @@ public class Main {
         System.out.println("Cколько еды добавить в тарелку?");
         int num = scanner.nextInt();
         plate1.addFood(num);
-        plate1.info();
+        //plate1.info();
+       
+        String s1 ="Java";
+        String s2 = new String("Java");
+        System.out.println(s1==s2);
+        System.out.println(" ");
+        System.out.println(s1.equals(s2));
     }
 }
